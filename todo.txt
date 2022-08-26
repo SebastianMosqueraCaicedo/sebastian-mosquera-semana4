@@ -1,0 +1,12 @@
+JS:
+	-receive strings from input
+	-add items from list to <li>
+	-mark "done" items that are clicked
+
+HTML:
+	-basic syntax
+	-add fonts and scripts
+
+CSS:
+	-fonts
+	-coloring
