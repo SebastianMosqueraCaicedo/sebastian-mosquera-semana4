@@ -2,14 +2,38 @@
 <html>
  <head>
 
-  <title>To-do List</title>
+  <title>Not List</title>
   <meta name="Author" content="Sebastian Mosquera C">
   <link rel="stylesheet" href="styles/style.css">
  </head>
  <header>
+	 <h1>To-Don't List</h1>
+	 <p>Add stuff you Don't want to do and click them once you not do them!: the webpage</p>
 
  </header>
  <body>
+	 <section>
+		 <h2>All untasks</h2>
+		 <h4>Add stuff</h4>
+		 <input type="text" onchange='handleChange(this)'>
+		 <ul id="all-list"></ul>
+
+	 </section>
+	 <aside>
+		 <h2>Not undone untasks</h2>
+		 <ul id= "task-list"></ul>
+
+	 </aside>
+	 <aside>
+		 <h2>Eh</h2>
+		 <ul id="done-list"></ul>
+
+	 </aside>
 
  </body>
+ <footer>
+	 <p>Enjoyed? press ctrl+w</p>
+
+ </footer>
+ <script src="src/main.js"></script>
 </html>

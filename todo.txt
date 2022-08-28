@@ -1,12 +1,18 @@
 JS:
 	-receive strings from input
 	-add items from list to <li>
-	-mark "done" items that are clicked
+	-send items that are clicked to complete
+
+	-do js stuff
 
 HTML:
-	-basic syntax
+	-basic syntax (title, tasks, pending and complete)
 	-add fonts and scripts
+
+	-stylize page with footers / sidebars
 
 CSS:
 	-fonts
 	-coloring
+
+	-responsive animations
