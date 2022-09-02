@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "sans-seriff";
+	src: url("assets/fonts/static/Oswald-Regular.ttf") format ("tff");
+}
+
+html {
+	background-color: black;
+}
+
+body {
+        margin: 0 20%;
+        padding: 0 3%;
+        border-left: 10px double #101010;
+        border-right: 10px double #101010;
+}
+
+header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px double #F9F9F9;
+        padding: 0 3% 0 0;
+        margin: 0 3% 0 0%;
+}
+
+section, aside {
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+aside {
+	border-top: 1px solid #F00000;
+
+}
+
+footer {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #F9F9F9;
+}
+
+
+li, h1, h2, h4,p {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+hard-font {
+        color: #F00000;
+        font-family: sans-serif;
+        text-shadow: -1px 1px red, 1px 1px red;
+        animation-duration: 0.1s;
+        animation-name: jig;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+}
+
+@keyframes jig {
+        from {
+                text-shadow: -1px 1px red, 1px 1px red;
+        }
+
+        to {
+	        text-shadow: 1px -1px red, -1px -1px red;
+        }
+}
+
+.click {
+	text-decoration: line-through;
+
+}
